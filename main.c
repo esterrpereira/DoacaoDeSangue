@@ -8,7 +8,7 @@ int main(void) {
   printf("Digite sua idade: ");
   scanf("%d",&idade);
   printf("Digite seu peso: ");
-  scanf("%d",&peso);
+  scanf("%f",&peso);
  
 
   if (idade < 16 || idade > 69)
